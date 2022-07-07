@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1em sans-serif;
+}
+
+.header--div {
+  display: flex;
+  color: white;
+  background-color: rgb(244, 105, 105);
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.header--icon {
+  width: 35px;
+  height: 30px;
+  padding-right: 7px;
+}
+
+.travel {
+  margin-top: 50px;
+  margin-left: 13px;
+  margin-right: 13px;
+  display: flex;
+  /* flex-wrap: nowrap; */
+  flex-direction: row;
+}
+
+.travel--details {
+  padding-top: 20px;
+  margin: 0px
+}
+
+.travel > img {
+  border-radius: 7px;
+  margin: 10px 10px;
+  object-fit: cover;  
+  height: 230px;
+  width: 200px;
+}
+
+.travel--maps {
+  padding-left: 20px;
+  color: grey;
+}
